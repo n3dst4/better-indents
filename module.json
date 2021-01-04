@@ -1,0 +1,11 @@
+{
+  "name": "better-indents",
+  "title": "Better Indents",
+  "description": "Make sidebar folder structure clearer",
+  "author": "N3dst4",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.9",
+  "styles": [
+    "styles/indents.css"
+  ]
+}
