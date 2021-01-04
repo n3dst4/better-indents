@@ -1,6 +1,6 @@
 # Better Indents
 
-Embiggen the subfolder indentation to make the folder structure clearer.
+Foundry VTT module to embiggen the subfolder indentation, to make the folder structure clearer.
 
 ## Installation
 
