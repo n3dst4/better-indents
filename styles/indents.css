@@ -1,4 +1,4 @@
-.subdirectory {
-  border-left-width: 2em;
+.subdirectory, #scenes .subdirectory {
+  border-left-width: 1em;
   border-left-color: transparent;
 }
