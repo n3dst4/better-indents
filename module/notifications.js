@@ -53,4 +53,12 @@ Hooks.on("createChatMessage", async (data, options, userId) => {
   }
 });
 
+Hooks.on("renderChatMessage", async (data, elements, options) => {
+  const color = game.users.get(data?.data?.user)?.data?.color;
+  if (color) {
+    $(elements).css({"background-color": color});
+  }
+
+});
+
 CONFIG.debug.hooks = true;
